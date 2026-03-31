@@ -1,10 +1,166 @@
-# 🪔 明灯 MingDeng — 传播素材
+# 🪔 Sage Coach — Promotional Materials / 传播素材
 
+> Copy and paste. Adjust to your voice. Share freely.
 > 以下素材可直接复制使用，欢迎根据自己的风格调整。
 
 ---
 
-## 极客宣传文（技术社区 / Hacker News / V2EX / Twitter）
+## English Promo — Hacker News / Reddit / Twitter / Product Hunt
+
+### HN Title
+**Show HN: Sage Coach — 4 AI life coaches in 20KB. Open source, runs on Claude Code & OpenClaw**
+
+### Post Body
+
+Last week at 3 AM, I typed `/crisis` into my terminal.
+
+Three years into a startup. Two months of runway. Co-founder just left.
+
+The AI didn't say "it'll be fine." It said:
+
+> "Hey, you're here. Whatever you're carrying — there's space to set it down."
+
+Then it used Viktor Frankl's logotherapy to walk me back from the edge. Step by step. No rushing. No platitudes.
+
+I decided to open source it. Because:
+
+**The world's best wisdom is locked behind the most expensive doors.**
+
+---
+
+**Sage Coach** — 4 AI coaching skills for Claude Code and OpenClaw (🦞), also compatible with Cursor, Copilot, Windsurf, Cline, Codex, and Gemini CLI:
+
+```
+/spiritual  🧘 Spiritual guide (Ajahn Chah / Thich Nhat Hanh / Pema Chödrön / Mingyur Rinpoche)
+/crisis     🫂 Crisis companion (Frankl / Yalom / Brené Brown / Rumi)
+/career     🔄 Career transition (Stanford Design Your Life / INSEAD Ibarra)
+/startup    🚀 Startup mentor (Paul Graham / Lean Startup / Ben Horowitz)
+```
+
+**Not a ChatGPT wrapper.** Each coach is a complete cognitive architecture:
+
+- **Persona Matrix** — 6-10 mentors' methodologies fused (not quote collages)
+- **Stage Model** — 4-5 dynamic phases that sense your state
+- **Case Matrix** — real-world scenario strategies
+- **Safety Boundary** — crisis detection + professional referral
+
+Implementation: **one .md file per coach.** 3-5 KB each. Zero infra. Zero deploy.
+
+```bash
+git clone https://github.com/joyozhang333-lgtm/sage-coach.git
+# Claude Code
+cp sage-coach/skills/*/SKILL.md ~/.claude/commands/
+# OpenClaw 🦞
+openclaw skills install sage-spiritual sage-crisis sage-career sage-startup
+```
+
+Why Skills, not an app? Because a Skill is **cognitive injection** — you're augmenting the LLM's thinking, not wrapping it. Your conversations stay 100% local. No third-party servers.
+
+20 KB total. Smaller than a favicon. Contains 30+ world-class mentors' methodologies.
+
+MIT License. Free forever.
+
+**Star it? Then try `/crisis` — hope you never need it, but if you do, it's there.**
+
+🪔 https://github.com/joyozhang333-lgtm/sage-coach
+
+---
+
+### Twitter / X Thread
+
+**Tweet 1:**
+I put Ajahn Chah, Viktor Frankl, Paul Graham, and Stanford's Design Your Life course into my terminal.
+
+4 AI coaches. 20KB. Open source. Works on Claude Code & OpenClaw 🦞
+
+🪔 Sage Coach: https://github.com/joyozhang333-lgtm/sage-coach
+
+🧵👇
+
+**Tweet 2:**
+The world's best wisdom is locked behind the most expensive doors.
+
+Good therapist: $200/hr
+Good career coach: $500/session
+Good startup mentor: behind doors you can't reach
+Good spiritual teacher: months in an ashram
+
+What if a terminal command could change that?
+
+**Tweet 3:**
+`/spiritual` — Buddhist guide fusing 3 lineages (Theravada + Mahayana + Vajrayana). 8 master personas from Ajahn Chah to Pema Chödrön.
+
+`/crisis` — Catches you when everything falls apart. 4 stages: Hold → Ground → See → Rise
+
+**Tweet 4:**
+`/career` — Stanford Design Your Life + INSEAD + growth mindset. No platitudes, just frameworks.
+
+`/startup` — PG + Lean Startup + Zhang Yiming. Doesn't just fix your product, fixes your thinking.
+
+**Tweet 5:**
+Each coach is NOT a prompt. It's a complete cognitive architecture:
+
+→ Persona Matrix (6-10 fused mentors)
+→ Stage Model (dynamic phase guidance)
+→ Case Matrix (real scenario strategies)
+→ Safety Boundary (crisis referral built in)
+
+All in a 3-5 KB .md file.
+
+**Tweet 6:**
+Works on:
+✅ Claude Code (native)
+✅ OpenClaw 🦞 (native — install via ClawHub)
+✅ Cursor, Copilot, Windsurf, Cline, Codex, Gemini CLI
+
+30-second install. MIT License. Free forever.
+
+⭐ https://github.com/joyozhang333-lgtm/sage-coach
+
+---
+
+### Reddit (r/ClaudeAI, r/OpenClaw, r/ArtificialIntelligence)
+
+**Title:** I open-sourced 4 AI life coaches — spiritual guide, crisis companion, career coach, startup mentor. 20KB, works on Claude Code & OpenClaw.
+
+**Body:**
+
+Hi everyone,
+
+I built Sage Coach — 4 AI coaching skills that work on Claude Code, OpenClaw (🦞), and most other AI coding tools.
+
+**What it is:**
+- `/spiritual` — Buddhist practice guide (Ajahn Chah, Thich Nhat Hanh, Pema Chödrön, Mingyur Rinpoche)
+- `/crisis` — Crisis companion for life's hardest moments (Frankl, Yalom, Brené Brown)
+- `/career` — Career transition coach (Stanford Design Your Life, INSEAD, growth mindset)
+- `/startup` — Startup mentor (Paul Graham, Lean Startup, Ben Horowitz)
+
+**How it works:**
+Each coach is a SKILL.md file (~4KB) with a three-layer cognitive architecture:
+1. Persona Matrix — 6-10 mentors' methodologies fused together
+2. Stage Model — 4-5 guidance phases that adapt to your state
+3. Case Matrix — real-world scenario handling
+
+**Why I built it:**
+The world's best wisdom is behind expensive doors. A good therapist is $200/hr. A good spiritual teacher requires months of retreat. I wanted to make world-class coaching accessible to everyone.
+
+**Install:**
+```bash
+# Claude Code
+git clone https://github.com/joyozhang333-lgtm/sage-coach.git
+cp sage-coach/skills/*/SKILL.md ~/.claude/commands/
+
+# OpenClaw
+openclaw skills install sage-spiritual sage-crisis sage-career sage-startup
+```
+
+MIT License. Free forever. Would love feedback and contributions.
+
+GitHub: https://github.com/joyozhang333-lgtm/sage-coach
+
+---
+
+## 中文宣传文（V2EX / 即刻 / 小红书 / Twitter 中文）
 
 ### 标题
 **我把阿姜查、弗兰克尔、Paul Graham 装进了终端 — 4 个开源 AI Coach Skill，20KB**
@@ -27,7 +183,7 @@ AI 没有说"一切都会好的"。它说：
 
 ---
 
-**明灯 (MingDeng)** — 4 个 Claude Code Skill，覆盖人生四个维度：
+**Sage Coach** — 4 个 AI Coach Skill，支持 Claude Code + OpenClaw（小龙虾🦞）+ 所有主流 AI 工具：
 
 ```
 /spiritual  🧘 灵性上师 — 融合阿姜查/一行禅师/明就仁波切/创巴仁波切
@@ -46,14 +202,15 @@ AI 没有说"一切都会好的"。它说：
 技术实现：**一个 .md 文件。** 3-5 KB。零部署。零基础设施。
 
 ```bash
-git clone https://github.com/joyozhang333-lgtm/mingdeng.git
-cp mingdeng/skills/*/SKILL.md ~/.claude/commands/
-# Done. 4 个世界级教练，装好了。
+git clone https://github.com/joyozhang333-lgtm/sage-coach.git
+cp sage-coach/skills/*/SKILL.md ~/.claude/commands/
+# Or on OpenClaw 🦞: openclaw skills install sage-spiritual sage-crisis sage-career sage-startup
+# Done. 4 world-class coaches, installed.
 ```
 
 为什么是 Skill 不是 App？
 
-因为 Skill 是**认知注入** — 给 Claude 注入专业思维框架，而不是在 Claude 前面加一层降级的 wrapper。你的对话不过任何第三方服务器。100% 本地。
+因为 Skill 是**认知注入** — 给 Claude / OpenClaw 注入专业思维框架，而不是加一层降级的 wrapper。你的对话不过任何第三方服务器。100% 本地。在小龙虾🦞上也能直接用。
 
 整个项目 20 KB。比一张 favicon 还小。但这 20 KB 里有 30+ 位世界级导师的方法论。
 
@@ -61,7 +218,7 @@ MIT License. Free forever.
 
 **Star 一下？然后试试 /crisis — 希望你永远用不上，但万一需要的那天，它在。**
 
-🪔 https://github.com/joyozhang333-lgtm/mingdeng
+🪔 https://github.com/joyozhang333-lgtm/sage-coach
 
 ---
 
@@ -122,12 +279,13 @@ MIT License. Free forever.
 🚀 创业导师 — Paul Graham+张一鸣思维框架
 
 完全免费 永久开源
-GitHub搜 **mingdeng**
+GitHub搜 **sage-coach**
+小龙虾🦞上也能直接装：openclaw skills install sage-crisis
 
 希望你永远用不上 /crisis
 **但万一需要的那天 它在** 🪔
 
-#AI心理陪伴 #开源 #免费资源 #人生低谷 #自我成长 #明灯 #MingDeng #创业 #心理健康
+#AI心理陪伴 #开源 #免费资源 #人生低谷 #自我成长 #OpenClaw #SageCoach #小龙虾 #创业 #心理健康
 
 ---
 
@@ -185,15 +343,16 @@ Paul Graham 的创业指导 → 要进 YC
 每个教练只有3-5KB
 但浓缩了这些人几十年的智慧
 
-需要 Claude Code 使用
-GitHub搜 **mingdeng**（明灯）
+支持 Claude Code + OpenClaw（小龙虾🦞）
+GitHub搜 **sage-coach**
+小龙虾🦞上也能直接装：openclaw skills install sage-crisis
 MIT License 永久免费
 
 **智慧不应该有门槛 🪔**
 
 收藏 ➕ 转发给需要的朋友
 
-#AI教练 #免费资源 #自我提升 #心理健康 #职业转型 #创业 #灵性成长 #明灯 #开源 #人生导师
+#AI教练 #免费资源 #自我提升 #心理健康 #职业转型 #创业 #灵性成长 #SageCoach #开源 #人生导师 #OpenClaw #小龙虾
 
 ---
 
@@ -204,28 +363,28 @@ MIT License 永久免费
 正文：
 
 发现一个开源宝藏 🪔
-叫"明灯 MingDeng"
+叫 Sage Coach
 
 4个AI教练覆盖人生4个方向
 每个都融合了6-10位世界级导师
 
 完全免费 隐私安全 永久开源
 
-📋 你需要：
+📋 你需要（二选一）：
 ✅ Claude Code（Anthropic的命令行工具）
-✅ 一个终端
+✅ 或 OpenClaw 小龙虾🦞（直接 openclaw skills install）
 
 📥 30秒安装：
 
 ```
-git clone https://github.com/joyozhang333-lgtm/mingdeng.git
+git clone https://github.com/joyozhang333-lgtm/sage-coach.git
 
 mkdir -p ~/.claude/commands
 
-cp mingdeng/skills/spiritual/SKILL.md ~/.claude/commands/spiritual.md
-cp mingdeng/skills/crisis/SKILL.md ~/.claude/commands/crisis.md
-cp mingdeng/skills/career/SKILL.md ~/.claude/commands/career.md
-cp mingdeng/skills/startup/SKILL.md ~/.claude/commands/startup.md
+cp sage-coach/skills/spiritual/SKILL.md ~/.claude/commands/spiritual.md
+cp sage-coach/skills/crisis/SKILL.md ~/.claude/commands/crisis.md
+cp sage-coach/skills/career/SKILL.md ~/.claude/commands/career.md
+cp sage-coach/skills/startup/SKILL.md ~/.claude/commands/startup.md
 ```
 
 📱 使用方法：
@@ -267,9 +426,10 @@ Fork一下就能自定义
 收藏备用 🪔
 转发给那个凌晨3点还醒着的朋友
 
-GitHub搜 mingdeng
+GitHub搜 sage-coach
+小龙虾🦞直接装：openclaw skills install sage-coach
 
-#AI工具 #免费好物 #效率工具 #Claude #程序员 #自我提升 #明灯
+#AI工具 #免费好物 #效率工具 #Claude #程序员 #自我提升 #SageCoach #OpenClaw
 
 ---
 
@@ -279,7 +439,7 @@ GitHub搜 mingdeng
 
 正文：
 
-一个开源项目 叫"明灯"🪔
+一个开源项目 叫 Sage Coach 🪔
 
 20KB
 比一张图片还小
@@ -307,7 +467,8 @@ GitHub搜 mingdeng
 
 **智慧不应该有门槛**
 
-GitHub搜 mingdeng
+GitHub搜 sage-coach
+小龙虾🦞直接装：openclaw skills install sage-coach
 MIT License 永久免费 🪔
 
-#明灯 #AI #开源 #免费 #智慧 #人生导师 #MingDeng
+#SageCoach #AI #开源 #免费 #智慧 #人生导师 #OpenClaw #小龙虾
